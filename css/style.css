@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(90deg, rgba(48,166,115,1) 23%, rgba(24,159,140,1) 100%); 
+    box-sizing: border-box;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    
+}
+
+::placeholder{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    opacity: 1;
+    font-size: 16px;
+}
+
+
+form {
+    z-index: 6;
+}
+
+input {
+    color: black;
+    appearance: none;
+    display: block;
+    margin: 20px;
+    background-color:rgba(255, 255, 255, 0.2);
+    opacity: 0.7;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    color: rgba(48,166,115,1);
+}
+
+
+
